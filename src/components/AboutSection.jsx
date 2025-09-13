@@ -3,7 +3,6 @@ import { Briefcase, Code, User } from "lucide-react";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
-      {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary"> Me</span>
@@ -12,25 +11,39 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-               Frontend Developer & UI/UX Designer
+              Frontend Developer & UI/UX Designer
             </h3>
 
             <p className="text-muted-foreground">
-              I’m a Frontend Developer passionate about crafting clean, responsive, and user-friendly websites. With a strong eye for UI/UX design and graphic design, I focus on creating digital experiences that look great and feel intuitive.
+              I’m a Frontend Developer passionate about crafting clean,
+              responsive, and user-friendly websites. With a strong eye for
+              UI/UX design and graphic design, I focus on creating digital
+              experiences that look great and feel intuitive.
             </p>
 
             <p className="text-muted-foreground">
-              Currently, I’m also learning copywriting and SEO, combining design, code, and strategy to build websites
+              Currently, I’m also learning copywriting and SEO, combining
+              design, code, and strategy to build websites
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
-                {" "}
                 Get In Touch
               </a>
 
+              {/* ✅ Two CV Buttons */}
               <a
-                href=""
+                href="/Main_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                View CV
+              </a>
+
+              <a
+                href="/Main_Resume.pdf"
+                download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -45,7 +58,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Frontend Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Frontend Development
+                  </h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
                     modern frameworks.
@@ -61,7 +76,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive interfaces and seamless user journeys for engaging digital experiences.
+                    Designing intuitive interfaces and seamless user journeys
+                    for engaging digital experiences.
                   </p>
                 </div>
               </div>
@@ -75,7 +91,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Graphic Design</h4>
                   <p className="text-muted-foreground">
-                    Crafting visually engaging designs that communicate ideas with clarity and creativity.
+                    Crafting visually engaging designs that communicate ideas
+                    with clarity and creativity.
                   </p>
                 </div>
               </div>
