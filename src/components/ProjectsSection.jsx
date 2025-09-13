@@ -4,32 +4,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Creative Agency Website",
+    description: "Built a dynamic agency website with engaging animations using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "GSAP"],
+    demoUrl: "https://creative-agency-website-iota.vercel.app/",
+    githubUrl: "https://github.com/Vishal878/k72",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Design Agency Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Created a professional design agency website with sleek UI components.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Java Script", "HTML", "CSS","GSAP"],
+    demoUrl: "https://agency-website-seven-iota.vercel.app/",
+    githubUrl: "https://github.com/Vishal878/Lazarev",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Studio Website",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Designed a fully responsive studio website with HTML, CSS, and JavaScript, focusing on user-friendly layouts",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags:  ["HTML","CSS","Java Script","GSAP"],
+    demoUrl: "https://studio-website-ecru.vercel.app/",
+    githubUrl: "https://github.com/Vishal878/Sun-Down",
   },
 ];
 
@@ -95,16 +95,6 @@ export const ProjectsSection = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
-            target="_blank"
-            href="https://github.com/machadop1407"
-          >
-            Check My Github <ArrowRight size={16} />
-          </a>
         </div>
       </div>
     </section>
