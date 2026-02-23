@@ -2,34 +2,52 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
+   {
     id: 1,
-    title: "Creative Agency Website",
-    description: "Built a dynamic agency website with engaging animations using React and Tailwind.",
+    title: "Wanderlust",
+    description: "Developed a full-stack web application using Mongo, Node and EJS. Structured the project using MVC principles and implemented RESTful APIs for seamless frontend-backend communication.",
     image: "/projects/project1.png",
+    tags: ["MongoDB", "ExpressJS", "Embedded JavaScript (EJS)", "NodeJS"],
+    demoUrl: "https://wanderlust-0r09.onrender.com/",
+    githubUrl: "https://github.com/Vishal878/HolidayWebsite",
+  },
+   {
+    id: 2,
+    title: "K72",
+    description: "Built a dynamic agency website with engaging animations using React and Tailwind.",
+    image: "/projects/project2.png",
     tags: ["React", "TailwindCSS", "GSAP"],
     demoUrl: "https://creative-agency-website-iota.vercel.app/",
     githubUrl: "https://github.com/Vishal878/k72",
   },
   {
-    id: 2,
-    title: "Design Agency Website",
-    description:
-      "Created a professional design agency website with sleek UI components.",
-    image: "/projects/project2.png",
-    tags: ["Java Script", "HTML", "CSS","GSAP"],
+    id: 3,
+    title: "Lazarev",
+    description: "Created a professional design agency website with sleek UI components.",
+    image: "/projects/project3.png",
+    tags: ["HTML","CSS","Java Script","GSAP"],
     demoUrl: "https://agency-website-seven-iota.vercel.app/",
     githubUrl: "https://github.com/Vishal878/Lazarev",
   },
   {
-    id: 3,
-    title: "Studio Website",
+    id: 4,
+    title: "Sundown",
     description:
       "Designed a fully responsive studio website with HTML, CSS, and JavaScript, focusing on user-friendly layouts",
-    image: "/projects/project3.png",
-    tags:  ["HTML","CSS","Java Script","GSAP"],
+    image: "/projects/project4.png",
+    tags: ["Java Script", "HTML", "CSS","GSAP"],
     demoUrl: "https://studio-website-ecru.vercel.app/",
     githubUrl: "https://github.com/Vishal878/Sun-Down",
+  },
+  {
+    id: 5,
+    title: "Interactive Landing Page",
+    description:
+      "Created an interactive landing page with dynamic animations and responsive design using HTML, CSS, and JavaScript.",
+    image: "/projects/project5.png",
+    tags:  ["HTML","CSS","Java Script","GSAP"],
+    demoUrl: "https://interactive-landing-page-three.vercel.app/",
+    githubUrl: "https://github.com/Vishal878/Interactive-Landing-Page",
   },
 ];
 
